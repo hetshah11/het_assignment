@@ -14,7 +14,7 @@ struct result
 
 
 struct result result(int,int,int);      //function declaration
-void main()     //main method starts
+int main()     //main method starts
     {
         int sub1,sub2,sub3;
         struct result t;    
@@ -22,6 +22,8 @@ void main()     //main method starts
         scanf("%d %d %d",&sub1,&sub2,&sub3);
         t=result(sub1,sub2,sub3);       //function calling
         printf("\n\nTotal marks= %d\nPercentage= %f",t.total,t.percentage);
+
+	return 0;
     }
 struct result result(int a,int b,int c)     //function to calculate total and percentage
     {

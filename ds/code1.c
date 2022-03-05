@@ -20,7 +20,7 @@ Y[] = { 8, 9, 10 }*/
 
 #include<stdio.h>
 
-void main()         //main method starts
+int main()         //main method starts
     {
         int m,n;
         printf("Enter elements to be inserted in array x and array y respectively\n");
@@ -85,6 +85,6 @@ void main()         //main method starts
             {               //printing array y
                 printf("%d ",y[i]);
             }
-        
+        return 0;
     }       //main method starts
     

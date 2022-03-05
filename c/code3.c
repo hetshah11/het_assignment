@@ -10,8 +10,8 @@ array, display YES else NO.
 
 
 #include<stdio.h>
-void main()
-    {
+int main()
+    {		//main method starts here
         int arr[10]={1,5,4,8,9,2,0,6,11,7},n,flag=0,i;  //declaring array of size 10
         printf("Enter number to be searched\n");
         scanf("%d",&n);
@@ -32,4 +32,6 @@ void main()
                 {           //for loop for printing sequence following numbers in array
                     printf("%d",arr[i]);
                 }
+
+	return 0;		//main method ends here
     }
